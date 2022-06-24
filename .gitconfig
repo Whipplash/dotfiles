@@ -1,3 +1,5 @@
 [user]
 	email = mattsnoopy2@gmail.com
 	name = Whipplash
+[credential]
+	helper = store

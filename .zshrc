@@ -1,4 +1,3 @@
-(cat ~/.cache/wal/sequences &)
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -132,4 +131,8 @@ export PICO_SDK_PATH="/usr/share/pico-sdk"
 alias pd="/usr/bin/sudo minicom -b 115200 -o -D /dev/ttyACM0"
 alias letmein="sudo openocd -f interface/picoprobe.cfg -f target/rp2040.cfg -s tcl"
 alias cleanup="sudo pacman -Rcs $(pacman -Qdtq)"
+alias ls='lsd'
 eval "$(starship init zsh)"
+
+
+(cat ~/.cache/wal/sequences &)

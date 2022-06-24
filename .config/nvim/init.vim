@@ -5,8 +5,9 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set cursorline
-set colorcolumn=134
+set colorcolumn=120
 set signcolumn=yes
+set mouse=nv
 
 set guicursor=
 set scrolloff=10
