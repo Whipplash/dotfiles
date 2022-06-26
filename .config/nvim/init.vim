@@ -8,6 +8,7 @@ set cursorline
 set colorcolumn=120
 set signcolumn=yes
 set mouse=nv
+set nowrap
 
 set guicursor=
 set scrolloff=10

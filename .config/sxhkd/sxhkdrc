@@ -3,8 +3,8 @@
 #
 
 # Lock
-super + l
-	dm-tool lock && systemctl suspend
+#super + l
+#	dm-tool lock && systemctl suspend
 # terminal emulator
 super + Return
 	kitty
