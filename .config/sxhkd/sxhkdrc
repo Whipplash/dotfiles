@@ -7,7 +7,7 @@
 #	dm-tool lock && systemctl suspend
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 # program launcher
 super + @space
