@@ -124,6 +124,7 @@ alias displays='/usr/bin/xrandr -q'
 alias dust='/usr/bin/dust -r'
 alias ls='lsd'
 alias ra='ranger'
+alias tmux='tmux -u'
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 #export LC_ALL=en_IN.UTF-8
@@ -144,6 +145,6 @@ eval "$(starship init zsh)"
 (cat ~/.cache/wal/sequences &)
 
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  exec tmux
+  exec tmux -u
 fi
 
