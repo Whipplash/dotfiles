@@ -124,11 +124,7 @@ alias displays='/usr/bin/xrandr -q'
 alias dust='/usr/bin/dust -r'
 alias ls='lsd'
 alias ra='ranger'
-alias tmux='tmux -u'
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-
-#export LC_ALL=en_IN.UTF-8
-#export LANG=en_IN.UTF-8
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
