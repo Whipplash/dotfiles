@@ -1,5 +1,3 @@
-export LC_ALL=en_IN.UTF-8
-#export LANG=en_IN.UTF-8
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -127,6 +125,9 @@ alias dust='/usr/bin/dust -r'
 alias ls='lsd'
 alias ra='ranger'
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+export LC_ALL=en_IN.UTF-8
+#export LANG=en_IN.UTF-8
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
