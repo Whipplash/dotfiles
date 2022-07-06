@@ -63,7 +63,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = 
-modules-right = filesystem xbacklight pulseaudio date powermenu spotify battery
+modules-right = filesystem xbacklight pulseaudio powermenu spotify battery
 
 tray-position = right
 tray-padding = 5
